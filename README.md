@@ -40,6 +40,8 @@ Live portfolio website showcasing professional experience in 24/7 on-air broadca
 │   │   ├── MikroTik_MTCNA_Certificate_2608NA7361.pdf
 │   │   ├── MikroTik_MTCRE_Certificate_2608RE7389.pdf
 │   │   └── MikroTik_MTCSE_Certificate_2608SE7405.pdf
+│   ├── cv/                     # Standard ATS Curriculum Vitae PDF
+│   │   └── Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf
 │   └── images/
 │       ├── profile.jpg         # Profile portrait
 │       └── badges/             # Official Cisco Credly digital badge graphics

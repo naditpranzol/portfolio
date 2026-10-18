@@ -46,6 +46,7 @@
         <a href="#certifications" class="nav-link" id="navLinkCerts">Certifications</a>
         <a href="#projects" class="nav-link" id="navLinkProjects">Projects</a>
         <a href="#education" class="nav-link" id="navLinkEdu">Education</a>
+        <a href="#resume" class="nav-link" id="navLinkResume">ATS CV</a>
         <a href="#terminal" class="nav-link" id="navLinkConsole">Console</a>
         <a href="#contact" class="nav-link" id="navLinkContact">Contact</a>
       </nav>
@@ -77,6 +78,7 @@
     <a href="#certifications" class="mobile-nav-link">Certifications</a>
     <a href="#projects" class="mobile-nav-link">Projects</a>
     <a href="#education" class="mobile-nav-link">Education</a>
+    <a href="#resume" class="mobile-nav-link">ATS CV</a>
     <a href="#terminal" class="mobile-nav-link">Terminal Console</a>
     <a href="#contact" class="mobile-nav-link">Contact</a>
     <div style="margin-top: 1rem; display: flex; gap: 0.75rem;">
@@ -149,13 +151,17 @@
               <i class="fas fa-briefcase"></i>
               <span>View Experience</span>
             </a>
-            <a href="#certifications" class="btn btn-secondary" id="heroCertsBtn">
+            <a href="#resume" class="btn btn-secondary" id="heroResumeBtn">
+              <i class="fas fa-file-pdf"></i>
+              <span>ATS CV</span>
+            </a>
+            <a href="#certifications" class="btn btn-outline" id="heroCertsBtn">
               <i class="fas fa-certificate"></i>
               <span>Certifications</span>
             </a>
             <a href="#contact" class="btn btn-outline" id="heroContactBtn">
               <i class="fas fa-paper-plane"></i>
-              <span>Contact Me</span>
+              <span>Contact</span>
             </a>
           </div>
         </div>
@@ -999,6 +1005,58 @@
     </section>
 
     <!-- ==========================================================================
+         ATS CURRICULUM VITAE SECTION
+         ========================================================================== -->
+    <section class="section section-alt" id="resume">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fas fa-file-lines"></i> Verified Document</span>
+          <h2 class="section-title">Standard <span class="gradient-text">ATS Curriculum Vitae</span></h2>
+          <p class="section-subtitle">Applicant-Tracking-System (ATS) optimized 1-page executive resume. Structured for technical hiring screening, compliance verification, and instant download.</p>
+        </div>
+
+        <div class="ats-cv-card">
+          <div class="ats-cv-topbar">
+            <div class="ats-cv-doc-info">
+              <div class="ats-cv-icon-box"><i class="fas fa-file-pdf"></i></div>
+              <div class="ats-cv-title-group">
+                <h3>Nadit Rabab Shah Pranzol — ATS Resume</h3>
+                <p>Junior Broadcast Engineer (IT) • Network Systems Specialist • 1-Page Standard Layout</p>
+              </div>
+            </div>
+
+            <div class="ats-cv-actions">
+              <a href="assets/cv/Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" download="Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" class="btn btn-primary btn-sm" id="downloadAtsCvBtn">
+                <i class="fas fa-download"></i>
+                <span>Download PDF</span>
+              </a>
+              <a href="assets/cv/Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="openAtsCvNewTab">
+                <i class="fas fa-external-link-alt"></i>
+                <span>Open in Tab</span>
+              </a>
+              <button onclick="window.print()" class="btn btn-outline btn-sm">
+                <i class="fas fa-print"></i>
+                <span>Print</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="ats-cv-badges-row">
+            <span class="badge badge-success"><i class="fas fa-check-circle"></i> 100% ATS Parser Friendly</span>
+            <span class="badge badge-primary"><i class="fas fa-layer-group"></i> 1-Page Executive Format</span>
+            <span class="badge badge-indigo"><i class="fas fa-shield-halved"></i> Privacy Protected</span>
+            <span class="badge"><i class="fas fa-calendar-check"></i> Updated 2026</span>
+          </div>
+
+          <!-- Embedded PDF Viewer -->
+          <div class="ats-cv-frame-wrap">
+            <iframe src="assets/cv/Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" class="ats-cv-iframe" title="Nadit Rabab Shah Pranzol ATS Curriculum Vitae"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
          INTERACTIVE NETWORK TERMINAL (Easter Egg / Tech Showcase)
          ========================================================================== -->
     <section class="section section-alt terminal-section" id="terminal">
@@ -1041,6 +1099,7 @@
             <button class="cmd-badge" data-cmd="skills">skills</button>
             <button class="cmd-badge" data-cmd="experience">experience</button>
             <button class="cmd-badge" data-cmd="certs">certs</button>
+            <button class="cmd-badge" data-cmd="cv">cv (ats)</button>
             <button class="cmd-badge" data-cmd="ping">ping broadcast.tv</button>
             <button class="cmd-badge" data-cmd="contact">contact</button>
             <button class="cmd-badge" data-cmd="clear">clear</button>
@@ -1214,9 +1273,10 @@
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#certifications">Certifications</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
+        <a href="#projects" class="footer-nav-link">Projects</a>
+        <a href="#education" class="footer-nav-link">Education</a>
+        <a href="#resume" class="footer-nav-link">ATS CV</a>
+        <a href="#contact" class="footer-nav-link">Contact</a>
       </nav>
 
       <div class="footer-copy">
