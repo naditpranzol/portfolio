@@ -204,7 +204,7 @@ function initInteractiveTerminal() {
   • <span style="color:#38bdf8">skills</span>       - Key networking & technical domains
   • <span style="color:#38bdf8">experience</span>   - Career history at Independent TV & Southeast Bank
   • <span style="color:#38bdf8">certs</span>        - MikroTik (MTCNA, MTCRE, MTCSE) & Cisco CCNA
-  • <span style="color:#38bdf8">cv</span>           - View & download ATS Curriculum Vitae PDF
+  • <span style="color:#38bdf8">resume / cv</span>  - View & download official 1-page Resume PDF
   • <span style="color:#38bdf8">ping</span>         - Test ICMP ping to broadcast server
   • <span style="color:#38bdf8">contact</span>      - Direct communication channels
   • <span style="color:#38bdf8">clear</span>        - Clear terminal screen`,
@@ -236,16 +236,16 @@ Specialization: 24/7 Live Broadcast IT Systems, Enterprise Routing/Switching (Mi
 [✓] Cisco CCNA: Switching, Routing & Wireless Essentials <span style="color:#38bdf8">[Credly Badge Verified]</span>
 [✓] Cisco CCNA: Introduction to Networks <span style="color:#38bdf8">[Credly Badge Verified]</span>`,
 
-    cv: `[📄 ATS Curriculum Vitae]
-Document: Nadit Rabab Shah Pranzol - Standard ATS 1-Page CV
+    cv: `[📄 Professional Resume / CV]
+Document: Nadit Rabab Shah Pranzol - Standard 1-Page Resume
 Format: PDF (Optimized for ATS Screening & Fast Recruitment)
-Download: <a href="assets/cv/Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" download="Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" style="color:#38bdf8; text-decoration:underline;">Click to Download PDF</a>
+Download: <a href="assets/cv/Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" download="Nadit_Rabab_Shah_Pranzol_Resume.pdf" style="color:#38bdf8; text-decoration:underline;">Click to Download PDF</a>
 View Online: <a href="assets/cv/Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" target="_blank" style="color:#10b981; text-decoration:underline;">Open in New Tab ↗</a>`,
 
-    resume: `[📄 ATS Curriculum Vitae]
-Document: Nadit Rabab Shah Pranzol - Standard ATS 1-Page CV
+    resume: `[📄 Professional Resume]
+Document: Nadit Rabab Shah Pranzol - Standard 1-Page Resume
 Format: PDF (Optimized for ATS Screening & Fast Recruitment)
-Download: <a href="assets/cv/Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" download="Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" style="color:#38bdf8; text-decoration:underline;">Click to Download PDF</a>
+Download: <a href="assets/cv/Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" download="Nadit_Rabab_Shah_Pranzol_Resume.pdf" style="color:#38bdf8; text-decoration:underline;">Click to Download PDF</a>
 View Online: <a href="assets/cv/Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" target="_blank" style="color:#10b981; text-decoration:underline;">Open in New Tab ↗</a>`,
 
     ping: `PING broadcast.independent.tv (192.168.10.1) 56(84) bytes of data.
