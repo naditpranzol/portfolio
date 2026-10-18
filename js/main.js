@@ -257,10 +257,11 @@ View Online: <a href="assets/cv/Nadit_Rabab_Shah_Pranzol_ATS_CV.pdf" target="_bl
 4 packets transmitted, 4 received, 0% packet loss, rtt min/avg/max = 0.68/0.75/0.84 ms
 <span style="color:#10b981">[STATUS: All systems nominal. 100% on-air broadcast availability.]</span>`,
 
-    contact: `Email:   naditpranzol@gmail.com | naditshah6516@gmail.com
-Phone:   +880 1852-365432 | +880 1983-553353
-LinkedIn: linkedin.com/in/nadit-pranzol
-Location: Niketan, Dhaka, Bangladesh`
+    contact: `Email:     naditpranzol@gmail.com | naditshah6516@gmail.com
+Phone:     +880 1852-365432 | +880 1983-553353
+LinkedIn:  linkedin.com/in/nadit-pranzol
+Portfolio: naditpranzol.vercel.app | naditpranzol.github.io/portfolio
+Location:  Niketan, Dhaka, Bangladesh`
   };
 
   function executeCommand(cmdText) {
